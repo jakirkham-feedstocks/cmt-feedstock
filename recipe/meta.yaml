@@ -19,21 +19,6 @@ source:
     # Patch for this has been submitted.
     # See pull request ( https://github.com/lucastheis/cmt/pull/30 ).
     - module.cpp.patch
-    # Test failure here is caused due to an inability to pickle.
-    # See issue ( https://github.com/lucastheis/cmt/issues/12 ).
-    # Patch for this has been submitted.
-    # See pull request ( https://github.com/lucastheis/cmt/pull/17 ).
-    - mcbm_test.py.patch
-    # Test failure here is caused due to sporadic numerical issue.
-    # See issue ( https://github.com/lucastheis/cmt/issues/16 ).
-    # Patch for this has been submitted.
-    # See pull request ( https://github.com/lucastheis/cmt/pull/20 ).
-    - mcgsm_test.py.patch
-    # Test failure here is caused due to numerical issue.
-    # See issue ( https://github.com/lucastheis/cmt/issues/15 ).
-    # Patch for this has been submitted.
-    # See pull request ( https://github.com/lucastheis/cmt/pull/19 ).
-    - univariate_test.py.patch
 
 build:
   number: 0
